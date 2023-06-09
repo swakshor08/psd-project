@@ -1,0 +1,401 @@
+   /* Global CSS */
+
+   *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+p {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+
+
+section {
+  padding: 75px 0;
+}
+
+.btn {
+  width: 200px;
+  padding: 20px;
+  font-size: 17px;
+  line-height: 17px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-color: blue;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.sub-heading {
+
+text-transform: uppercase;
+
+margin: 20px auto;
+
+font-size: 25px;
+
+font-weight: bold;
+
+line-height: 20px;
+}
+
+.underline {
+
+border-top: 5px solid #0000003d;
+
+width: 6%;
+
+margin: auto;
+
+padding-bottom: 15px;
+}
+
+.writing-part {
+  margin-bottom: 50px;
+}
+
+.box-part {
+}
+
+.box {
+  padding: 0px 25px;
+}
+
+/* layout */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+.bot{
+ text-align: center;
+}
+
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+
+.col-2 {
+    width: 16.66%;
+    float: left;
+}
+
+.col-3 {
+    width: 25%;
+    float: left;
+}
+
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+    float: left;
+}
+
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.col-9 {
+    width: 75%;
+    float: left;
+}
+
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+
+.col-12 {
+    width: 100%;
+    float: left;
+}
+
+  /* ================================
+         header part 
+  ================================ */
+
+  header {
+    background-color: #87509c;
+  }
+
+  nav {
+    padding: 10px 0;
+  }
+  .logo-part{
+  }
+  .manu-part{
+
+  }
+  .manu-part ul {
+    
+text-align: end;
+    
+padding: 5px 2px;
+  }
+  .manu-part li {
+
+list-style: none;
+
+display: inline-block;
+
+margin: 0px 10px;
+
+}
+
+.hero-part button {
+  background-color: #eb7d4b;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+  .manu-part a {
+font-size: 20px;
+font-weight: 400;
+color: white;
+padding: 3px 12px;
+border-radius: 10px;
+}
+.hero-part {
+  padding: 150px 100px;
+  text-align: center;
+}
+.hero-part h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 45px;
+}
+.manu-part a:hover {
+    background-color: rgba(0, 0, 0, 0.148);
+}
+
+
+
+  /* ================================
+          service section 
+  ================================ */
+
+  #service{
+    background-color: #0fb093;
+    color: #fff;
+    text-align: center;
+  }
+
+  #service .box img {
+    height: 130px;
+  }
+  
+  /* ================================
+       team section 
+  ================================ */
+
+  #team{
+     background-color: #e7f1f8;
+     color: black;
+     text-align: center;
+  }
+
+  #team .box p {
+   padding-bottom: 8px;
+  }
+  .p-t {
+     font-size: 20px;
+     color: #30bae7;
+  }
+
+  .icon-box {
+     margin-top: 10px;
+  }
+
+  .icon-box i {
+    font-size: 19px;
+    background-color:rgb(255, 255, 255);
+    padding: 11px;
+    width: 45px;
+    border-radius: 100%;
+  }
+
+  .icon-box i:hover {
+    background-color: aqua;
+  }
+  /* ================================
+       skill section 
+  ================================ */
+
+  #skills {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+  }
+
+   /* ================================
+        protfolio section 
+  ================================ */
+
+#portfolio{
+  background-color: #ffdd99;
+  text-align: center;
+}
+
+ button {
+  background-color: #0fb093;
+  color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: px;
+}
+.bot1 ul {
+    text-align: center;
+    padding: 5px 2px;
+      }
+
+.bot1 li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    
+    } 
+
+   /* ================================
+        about-us section 
+  ================================ */
+   #about-us {
+      background-color: #d74680;
+      color: #fff;
+      text-align: center;
+   }
+  .image {
+    float: left;
+  }
+  .box-part1 {
+    margin-bottom: 90px;
+  }
+.box {
+  text-align: left;
+  
+}
+
+
+
+
+ /* ================================
+        contact section 
+  ================================ */
+
+  #contact {
+    background-color: #3c5499;
+    color: white;
+    text-align: center;
+  }
+
+  form {
+    width: 60%;
+    margin: auto;
+  }
+  .form-part-one {
+    margin-bottom: 20px;
+  }
+ 
+  .form-part-two {
+
+  }
+  input,textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #273a71;
+  }
+ 
+  input[type="text"] {
+    width: 98%;
+    margin-right: 2%;
+  }
+  input[type="email"] {
+    width: 98%;
+    margin-left: 2%;
+  }
+  input[type="submit"] {
+    color: white;
+    margin-top: 20px;
+    background-color: #30bae7;
+    
+  }
+  input::placeholder,
+  textarea::placeholder {
+    color: white;
+  }
+  
+
+
+
+
+ /* ================================
+        footer section 
+  ================================ */
+
+  #footer{
+    background: #344b8e;
+    color: #ffff;
+    /* text-align: center; */
+  }
+  .footer-menubar ul {
+    text-align: center;
+    padding: 6px 0px;
+  }
+  .footer-menubar li {
+    list-style: none;
+    display: inline-block;
+    width: 80px;
+    border-radius: 5px;
+    margin: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.136);
+  }
+  .footer-menubar a{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+  }
+  .footer-menubar li :hover{
+    width: 50px;
+    background-color: #273a71;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
